@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon/fonts/icomoon.eot?644akl');
+  src:  url('icomoon/fonts/icomoon.eot?644akl#iefix') format('embedded-opentype'),
+    url('icomoon/fonts/icomoon.ttf?644akl') format('truetype'),
+    url('icomoon/fonts/icomoon.woff?644akl') format('woff'),
+    url('icomoon/fonts/icomoon.svg?644akl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.icon-twitter:before,
+.icon-facebook:before,
+.icon-instagram:before{
+  font-family: icomoon;
+}
+
+
+.icon-twitter:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+} 
+.bot{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+body{
+  font-family: chonburi;
+
+}
+
+
+
+/*inicio sobremi*/
+
+.logo{
+  border: black solid 5px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 15px 0 15px 15px;
+  float: left;
+}
+
+
+.titulo-logo{
+float: left;
+padding: 30px;
+
+}
+
+.logo-holder{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 35%;
+
+}
+
+
+header{
+  background-color: #dfe0e0;
+  border-radius: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+  }
+
+nav ul li {
+  display: inline-flex;
+  font-size: 30px;
+  padding: 15px;
+  justify-content: space-around;
+  border-right: 5px solid black;
+  border-left:5px solid black;
+  border-bottom:5px solid black;
+width: 15%;
+
+}
+
+.activo{
+  font-style: italic;
+  background-color: #dfe0e0;
+}
+
+p{
+  font-family: century gothic;
+  font-weight: bold;
+}
+
+
+.boxes img{
+
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  border: solid 5px black;
+}
+
+.boxes p{
+  width: 50%;
+}
+
+.boxes:nth-child(even) .info{
+  float: left;
+  margin-top: 10%;
+
+}
+
+.boxes:nth-child(odd) .info{
+  float: right;
+  margin-top: 5%;
+}
+
+.boxes:nth-child(even) figure{
+  float: left;
+  border-left: solid 5px black;
+  padding: 15px;
+
+
+}
+
+.boxes:nth-child(odd) figure{
+  float: right;
+  border-right: solid 5px black;
+  padding: 15px;
+
+}
+/*fin sobremi*/
+
+/*inicio museos*/
+
+.image-museo img{
+  width:500px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.image-museo img:hover{
+  opacity: 0.5;
+}
+ 
+.image-museo{
+    text-align: center;
+}
+
+
+/*fin museos*/
+
+/*inicio nyu*/
+figure{
+  float: left;
+  width: 30%;
+}
+
+figcaption{
+  font-family: century gothic;
+  font-weight: bolder; 
+}
+
+.paleo{
+  float: right;
+  width: 50%
+}
+/*fin nyu*/
+
+
+/*inicio contacto*/
+
+.right{
+  float: right;
+  width: 40%;
+}
+
+.formulario label{
+  display: inline-block;
+  width: 20%;
+  font-family: century gothic;
+}
+
+.formulario input,
+.formulario textarea{
+width: 80%;
+border-radius: 3px;
+border: solid 2px black;
+font-size: 20px;
+resize: none;
+}
+
+.boton input{
+  background-color:#dfe0e0;
+  font-family: century gothic;
+}
+
+
+
+.left {
+  float: left;
+  width:40%;
+  margin-left: 5%;
+}
+
+.columna img{
+width: 600px;
+height: 400px;
+}
+
+/*fin contacto*/
+
+
+
+footer{
+  clear: both;
+  float:right;
+}

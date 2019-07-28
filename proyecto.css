@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon/fonts/icomoon.eot?644akl');
+  src:  url('icomoon/fonts/icomoon.eot?644akl#iefix') format('embedded-opentype'),
+    url('icomoon/fonts/icomoon.ttf?644akl') format('truetype'),
+    url('icomoon/fonts/icomoon.woff?644akl') format('woff'),
+    url('icomoon/fonts/icomoon.svg?644akl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.icon-twitter:before,
+.icon-facebook:before,
+.icon-instagram:before{
+  font-family: icomoon;
+}
+
+
+.icon-twitter:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+} 
+.bot{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+body{
+  font-family: chonburi;
+
+}
+
+/*inicio home*/
+.titulo{
+  font-size: 55px; 
+  text-align: center;
+ }
+
+.home-image img{
+  width: 450px;
+  height: 600px;
+  max-width: 100%; 
+  border-left: solid black 5px;
+  border-right: solid black 5px;
+  border-bottom: solid black 5px;
+  border-radius: 5px;
+}
+
+.home-image figure{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.holder{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.nav-box{
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+border-right: solid 5px black;
+border-top: solid 5px black;
+padding: 10px;
+font-size: 20px;
+width: 150%;
+}
+
+ .borderbot{
+border-right: solid 5px black;
+border-top: solid 5px black;
+border-bottom: solid 5px black;
+padding: 10px;
+font-size: 20px;
+
+}
+
+.activo{
+  font-style: italic;
+  background-color: #dfe0e0;
+}
+
+
+footer{
+  clear: both;
+  float: right;
+  font-size: 22px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+/*fin home*/
+
+
